@@ -32,9 +32,9 @@ h1 {
   position: fixed;
   font-family:cursive ;
   top: 50%;
-  left: -18%;
+  left: -11%;
     text-align: center;
-  font-size: 5.75rem;
+  font-size: 3rem;
   margin: 0;
 transform: rotate(270deg);
 letter-spacing: 8px;
