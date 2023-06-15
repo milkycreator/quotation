@@ -1,43 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <title>Macky</title>
-</head><body>
-<section class="container">
-  <div class="left-half">
-     <a class="home-icon" href="https://milkycreator.github.io/homepage/"><i class="fas fa-home"></i></a>
-      <h1> Points to Ponder</h1>
-  </div>
-  <div class="right-half">
-   <div class="col1"><h2>A man is but the product of his thoughts; what he thinks, he becomes.</h2> <span class="aut1">— Mahatma Gandhi —</span></div>
-    <div class="qoute2"><h2>Anyone who has never made a mistake has never tried anything new. </h2><span class="aut2">— Albert Einstein —</span></div>
-    <div class="qoute3"> <h2>Life is a Journey, Not a Destination.</h2><span class="aut3">-Ralph Waldo Emerson</span></div>
-    <div class="qoute4"><h2>We need to be the authors of our own life </h2><span class="aut4">-Peter Senge</span></div>
-    <div class="qoute5"><h2>Don't let your happiness depend on something you may lose.</h2><span class="aut5">-C.S. Lewis-</span></div>
-    <div class="qoute6"><h2>Live as if you were to die tomorrow. Learn as if you were to live forever. </h2><span class="aut6">— Mahatma Gandhi —</span></div>
-          <div class="qoute7"><h2>Pain is inevitable. Suffering is optional</h2> <span class="aut7">Haruki Murakami</span></div>
-          <div class="qoute8"><h2>'Be kind, for everyone you meet is fighting a hard battle.'</h2><span class="aut8">– Plato</span></div>
-          <div class="qoute9"><h2>'Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.'</h2> <span class="aut9">– Voltaire</span></div>
-          <div class="qoute10"><h2>'Life is tough my darling, but so are you.' </h2><span class="aut10">– Stephanie Bennett Henry</span></div>
-          <div class="qoute11"><h2>'Amateurs sit and wait for inspiration, the rest of us just get up and go to work.</h2><span class="aut11">– Stephen King</span></div>
-          <div class="qoute12"><h2>'It is never too late to be what you might have been.'</h2><span class="aut12">George Eliot</span></div>
-          <div class="qoute13"><h2>'To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.'</h2><span class="aut13">– Ralph Waldo Emerson</span></div>
-          <div class="qoute14"> <h2>“Life is never fair, and perhaps it is a good thing for most of us that it is not.”<span class="aut14">—Oscar Wilde</span></div>
-          <div class="qoute15"><h2>"Everything is hard before it is easy."</h2><span class="aut15">-Johann Wolfgang von Goethe-</span></div>
-          <div class="qoute16"><h2>"Be very careful, then, how you live — not as unwise but as wise, making the most of every opportunity, because the days are evil."<span class="aut16">Ephesians 5:15-16</span></div>
-          <div class="qoute17"><h2>"Whoever heeds discipline shows the way to life, but whoever ignores correction leads others astray."</h2><span class="aut17">Proverbs 10:17</span></div>
-          <div class="qoute18"><h2>"Blessed is the man who remains steadfast under trial, for when he has stood the test he will receive the crown of life, which God has promised to those who love him."<span class="aut18">James 1:12</span></div>
-          <div class="qoute19"><h2>“For everything there is a season, and a time for every matter under heaven: a time to be born, and a time to die; a time to plant, and a time to pluck up what is planted.”</h2><span class="aut19">Ecclesiastes 3:1</span></div>
-          <div class="qoute20"><h2>Your time is limited, don’t waste it living someone else’s life. Don’t be trapped by dogma, which
+  <title>Quotations </title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-tiya-golf-club.css" rel="stylesheet">
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 8px 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  overflow: auto;
+  animation: gradient 7s ease infinite;
+  background-size: 200% 200%;
+  background-attachment: fixed;
+  overflow: auto;
+  background-image: url(bg-right.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.wrapper {
+  position: relative;
+}
+.container {
+  display: inline-block;
+  width:85%;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.side-title {
+  width: 180px;
+  height: 100vh;
+  border-style: solid;
+  position: fixed;
+  margin: 0 0;
+  padding: 0 0;
+  opacity: .96; 
+  color: brown;
+  background-image: url(bg-right.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.side-title h1 {
+  font-family: sans-serif;
+  text-shadow: 3px 4px rgb(247, 220, 111), -1em 0 0.4em rgb(255, 255, 255);
+  font-size: 54px;
+  font-weight: bold;
+  position: absolute;
+  margin: 0 0;
+  bottom: 0;
+  left: 0;
+  margin-left: 37px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+    
+
+  background-image: linear-gradient(
+  -225deg,
+
+);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 5s linear infinite;
+display: inline-block;
+}
+.quoteContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  grid-auto-rows: 300px;
+  grid-auto-columns: 300px;
+  margin-left:200px;
+}
+.div-quote {
+  margin-top: 4px;
+  overflow: auto;
+  text-align: center;
+  padding: 20px;
+   background-image: url(back.jpg);
+  opacity: .8; 
+}
+em {
+  line-height: 33px;
+  color: white;
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  text-shadow: 2px 2px 4px #000000;
+}
+span {
+  font-size: 50px;
+  font-family: Courier New;
+}
+.quote-and-quote {
+  font-size: 30px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  font-family: georgia;
+}
+h3:hover {
+  font-weight: bold;
+  font-size: 23px;
+  color: darkgray;
+}
+.fa {
+  width: 50px;
+  color: rgb(255, 255, 255);
+}
+.w3-xxlarge {
+  display: inline-block;
+  position: fixed;
+  bottom: 10px;
+  z-index:1;
+  margin-left: 37px;
+  text-align: center;
+}
+span {
+  font-size: 50px;
+  color: black;
+}
+em::before {
+  content:open-quote;
+  color: black;
+  font-size: 2em;
+  font-family: Courier New;
+}
+em::after {
+  content:close-quote;
+  color: black;
+  font-size: 2em;
+  font-family: Courier New;
+}
+</style>
+</head>
+<body>
+  <div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+ </div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="w3-xxlarge">
+        <a style="margin-bottom: 780%; text-shadow: 2px 2px 4px #000000;" class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="../activities/index.html" role="button" aria-controls="offcanvasExample">Home</a>
+       </div> 
+      <div class="side-title">
+        <h1>POINTS&nbsp;TO&nbsp;PONDER</h1>
+      </div>
+      <div class="quoteContainer">
+          <div class="div-quote">
+                <em>
+                  <span>A</span> man is but the product of his thoughts; what he thinks, he becomes.
+                </em> 
+                
+                <h3>-Mitch Hedberg</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>A</span>nyone who has never made a mistake has never tried anything new.
+              </em> 
+                
+                <h3>-Betty White</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>L</span>ife is a Journey, Not a Destination.
+
+              </em> 
+              
+              <h3>-Will Ferrell</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>W</span>e need to be the authors of our own life 
+              </em> 
+                
+                <h3>-Peter Senge</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>D</span>on't let your happiness depend on something you may lose.
+              </em> 
+                
+                <h3>-C.S. Lewis-</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>L</span>ive as if you were to die tomorrow. Learn as if you were to live forever.
+                </em> 
+                
+                <h3>— Mahatma Gandhi —</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>P</span>ain is inevitable. Suffering is optional
+              </em> 
+                
+                <h3>-Haruki Murakami</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>B</span>e kind, for everyone you meet is fighting a hard battle.
+              </em> 
+                
+                <h3>-Plato</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+               <span>A</span>ppreciation is a wonderful thing. It makes what is excellent in others belong to us as well.
+              </em> 
+                
+                <h3>-Voltaire</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+               <span>L</span>ife is tough my darling, but so are you.
+              </em> 
+                
+                <h3>-Stephanie Bennett Henry</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+               <span>A</span>mateurs sit and wait for inspiration, the rest of us just get up and go to work.
+              </em> 
+                
+                <h3>-Stephen King</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>I</span>t is never too late to be what you might have been.
+              </em> 
+                
+                <h3>-George Eliot</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>T</span>o be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.
+              </em> 
+                
+                <h3>-Ralph Waldo Emerson </h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>L</span>ife is never fair, and perhaps it is a good thing for most of us that it is not.
+              </em> 
+                
+                <h3>-Oscar Wilde</h3>
+          </div>
+          <div class="div-quote">
+                <em>
+                  <span>E</span>verything is hard before it is easy.
+              </em> 
+                
+                <h3>-Johann Wolfgang von Goethe</h3>
+          </div>
+          <div class="div-quote">
+                <em>
+                  <span>B</span>e very careful, then, how you live — not as unwise but as wise, making the most of every opportunity, because the days are evil.
+              </em> 
+                
+                <h3>-Ephesians 5:15-16</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>W</span>hoever heeds discipline shows the way to life, but whoever ignores correction leads others astray.
+              </em> 
+                
+                <h3>-Proverbs 10:17</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>B</span>lessed is the man who remains steadfast under trial, for when he has stood the test he will receive the crown of life, which God has promised to those who love him.
+              </em> 
+                
+                <h3>James 1:12</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>F</span>or everything there is a season, and a time for every matter under heaven: a time to be born, and a time to die; a time to plant, and a time to pluck up what is planted.
+              </em> 
+                
+                <h3>-Ecclesiastes 3:1</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>Y</span>our time is limited, don’t waste it living someone else’s life. Don’t be trapped by dogma, which
 is living the result of other people’s thinking. Don’t let the noise of other’s opinion drowned your
 own inner voice. And most important, have the courage to follow your heart and intuition, they
-somehow already know what you truly want to become. Everything else is secondary. </h2><span class="aut20">— Steve
-Jobs —</span></div>
+somehow already know what you truly want to become. Everything else is secondary. 
+              </em> 
+                
+                <h3>-teve
+Jobs</h3>
+          </div>
+      </div>
+    </div>
   </div>
-</section>
 </body>
 </html>
